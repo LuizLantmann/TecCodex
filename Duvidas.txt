@@ -1,0 +1,6 @@
+Oque é um Arquivo compilado?
+- Um Codigo compilado é lido por inteiro e depois executado "caso nao haja nem um erro"
+
+Codigo Interpretado?
+-Um codigo interpretado é lido e exacutado linha por linha
+

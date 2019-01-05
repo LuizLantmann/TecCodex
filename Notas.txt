@@ -1,0 +1,86 @@
+ Meta tag:
+<meta charset="utf-8"> // essa meta tag altera a leitura do texto pelo browser para uma leitura com acentos./
+
+Tag <Script> </script> // esta tag Altera a maneira do browser interpretar os comandos assim como a tag <Style> </style> na tag <script> caso haja um erro em produção e sera mostrada diretamente no browser 
+
+Concatenação no JavaScript usa o "+"
+
+Sempre que o usuario digita na interface sempre vem como texto entao sera necessario fazer uma conversão
+---------------------------------------------------------------------------------
+
+Comandos:
+
+- Alert("texto"); "Abre uma janela de aviso/mensagem
+
+-Prompt("textoPerguta"); "Abre uma pergunta ao usuario 
+
+Uma variavel pode ser chamada pelo comando: "Var nome da Var"
+o nome de uma variavel "Var" não pode começar com numero e possuir caracteres especiais alem de "$" e "_" para ser valido
+
+o "=" atribiu o valor a um comando
+
+parseInt(); Converte em um numero Inteiro
+
+parseFloat(); Converte em um Numero Real
+
+
+---------------------------------------------------------------------------------
+
+Exemplos:
+                 <script>
+                    Var nome = prompt("Qual o seu nome?");
+                    alert("Bem-vindo," + nome);
+                </script>
+
+Textos dentro de codigos somente são lidos se estiverem dentro de ' ' ou " " 
+na progrmação a gente representa textos dentro de ' ' ou " "
+---------------------------------------------------------------------------------
+
+Variáveis:
+Espaço reservado na memória da máquina capaz de armazenar UM valor
+
+            
+               Tipos de Dados
+Alguns tipos de dados que uma variavel pode conter:
+
+-String, Texto. Ex: Var endereco = "Texto" 'texto'
+
+-Número Inteiro/integer 1 2 3 4... 10
+
+-Numero Real/float/floating 1.2, 1.50, 1.5980
+
+-Boleano True/False ex: Var EstaGravido = True
+
+-Array 
+
+-Objetos
+
+-Null uma variavel Vazia
+
+-undefined. é uma variavel sem um valor a tribuido
+
+-NaN (Note a Number)
+-----------------------------------------------------------------------------------
+Operadores Aritmétricos
+
++ Adição
+
+- Subtração
+
+* Multiplicação
+
+/ Divisão
+
+% Modulo
+
+** Exponenciação
+
+++ Incrimento
+
+-- Decremento
+
+Certos operadores tem preferencia na execução como por exemplo "/" e  "*" mas se a operaçao anterior estiver envolvida em "( )" a mesma sera executada primeiro.
+------------------------------------------------------------------------------------
+
+Pode-se criar comentarios/notas nas linhas de progração com "//comentario de uma unica linha" ou "/* Comentario de mais de uma linha */"
+
